@@ -1,0 +1,160 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.header{
+    background-color: black;
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.main__navigation-container{
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.main__navigation-item{
+    padding-left: 75px;
+    font-size: 24px;
+    text-decoration: none;
+    color: #fff;
+}
+.main__navigation-item:first-child{
+    padding-left: 0;
+}
+
+.btn-register{
+    text-decoration: none;
+    font-size: 16px;
+    color: white;
+    padding: 10px 30px;
+
+    background: linear-gradient(94.26deg, #C89AFC 9.51%, #7C6AFA 90.23%);
+    border-radius: 50px;
+}
+body{
+    background-color: #332D2D;
+}
+
+.firstName_id{
+    color: #FFFFFF;
+    font-size: 20px;
+    margin-right: 20px;
+    border: 1px #FFFFFF solid;
+    border-radius: 10px;
+    padding: 10px;
+}
+.logout_exit{
+    text-decoration: none;
+    font-size: 20px;
+    background-color: red;
+    padding: 10px;
+    border-radius: 10px;
+    color: #fff;
+
+}
+.profile_img{
+    width: 50px;
+    margin-right: 20px;
+}
+.firstNameId-container{
+    display: flex;
+    align-items: center;
+}
+.container_id{
+    display: flex;
+    align-items: center;
+}
+
+/*===========STUDENTS======================*/
+.student__title{
+    font-family: 'Roboto', serif;
+    font-weight: 700;
+    font-size: 48px;
+    color: #FFF;
+    text-align: center;
+    padding-top: 75px;
+}
+
+.student__item{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+.student__fullName{
+    font-family: 'Roboto', serif;
+    font-size: 24px;
+    color: #fff;
+    padding-top: 62px;
+}
+
+.student__items{
+    text-align: center;
+    width: 33.33%;
+    padding-top: 100px;
+}
+
+.student__profession, .student__group{
+    font-family: 'Roboto', serif;
+    font-size: 16px;
+    opacity: .8;
+    color: #fff;
+    padding-top: 15px;
+    padding-bottom: 30px;
+}
+.student__items{
+    text-align: center;
+    width: 33.33%;
+    padding-top: 100px;
+}
+.student__btn{
+    text-decoration: none;
+    font-family: 'Roboto', serif;
+    color: #fff;
+    border: 1px solid white;
+    padding: 10px 30px;
+    border-radius: 50px;
+}
+
+/*====================EVENTS========================*/
+.event__title{
+    font-family: 'Playfair Display', serif;
+    font-size: 20px;
+    color: #fff;
+}
+.event__text{
+    font-size: 14px;
+    color: #fff;
+    padding: 30px 0;
+}
+.event__btn{
+    font-size: 16px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.event__item{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+.event__items{
+    display: flex;
+    align-items: center;
+    width: 50%;
+    padding: 50px 0;
+}
+
+.event-items-container{
+    padding-left: 26px;
+}
+.event__btn-container{
+    display: flex;
+    align-items: center;
+}
