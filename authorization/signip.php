@@ -62,7 +62,7 @@ if (isset($data['signip'])){
 
                     <div class="container_id">
                         <div class="firstNameId-container">
-                            <a href="#"><img class="profile_img" src="../images/profile.png" alt="profile"></a>
+                            <a href="profile.php"><img class="profile_img" src="../images/profile.png" alt="profile"></a>
                             <p class="firstName_id"> <?php echo $user->firstName;?></p>
                         </div>
                         <a class="logout_exit" href="logout.php">Выйти</a>

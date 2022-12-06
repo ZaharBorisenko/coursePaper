@@ -37,7 +37,7 @@ $user = R::findOne('users', 'id = ?', array($_SESSION['user']->id));
 
                     <div class="container_id">
                         <div class="firstNameId-container">
-                            <a href="#"><img class="profile_img" src="images/profile.png" alt="profile"></a>
+                            <a href="authorization/profile.php"><img class="profile_img" src="images/profile.png" alt="profile"></a>
                             <p class="firstName_id"> <?php echo $user->firstName;?></p>
                         </div>
                         <a class="logout_exit" href="authorization/logout.php">Выйти</a>

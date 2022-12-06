@@ -35,6 +35,7 @@ if (isset($data['singup'])){
         $user->lastName = $data['lastName'];
         $user->email = $data['email'];
         $user->password = password_hash($data['password'], PASSWORD_DEFAULT);
+        $user->avatar = 'avatardefoult.png';
         R::store($user);
     }
 }
@@ -74,7 +75,7 @@ if (isset($data['singup'])){
 
                     <div class="container_id">
                         <div class="firstNameId-container">
-                            <a href="#"><img class="profile_img" src="../images/profile.png" alt="profile"></a>
+                            <a href="authorization/profile.php"><img class="profile_img" src="../images/profile.png" alt="profile"></a>
                             <p class="firstName_id"> <?php echo $user->firstName;?></p>
                         </div>
                         <a class="logout_exit" href="logout.php">Выйти</a>
